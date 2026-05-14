@@ -4,7 +4,7 @@ import google.generativeai as genai
 import os
 
 # Get your API key from https://aistudio.google.com/app/apikey
-os.environ["GEMINI_API_KEY"] = "AIzaSyA_M_S8-vR39N6sBw6ULrx5IYjtMvCXKEw"
+os.environ["GEMINI_API_KEY"] = "your_api_key_here"
 
 app = Flask(__name__)
 CORS(app, 
