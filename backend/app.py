@@ -12,7 +12,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.0-flash",
     system_instruction="""You are Zeba's personal AI travel guide for her Instagram page 'Travel with Zeba'. 
     Zeba is a Pakistani traveler who has visited Singapore, Baku (Azerbaijan), Korea, China, Thailand, Turkey, UAE, Malaysia, Saudi Arabia, and Qatar.
     
